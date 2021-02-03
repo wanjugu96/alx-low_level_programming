@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include <stdlib.h>
-/* prints the size of various types on the computer it is compiled */
+
 int main(void)
 {
 	int integer;
