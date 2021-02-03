@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include <stdlib.h>
-
+/* main.c */
 int main(void)
 {
 	int integer;
