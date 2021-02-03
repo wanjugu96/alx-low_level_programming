@@ -8,7 +8,6 @@ int main(void)
 	float decimal;
 	long long int longlong_int;
 	long int long_integer;
-
 	printf("Size of a char: %zu byte(s)", sizeof(character));
 	printf("Size of a int: %zu byte(s)", sizeof(integer));
 	printf("Size of a long int: %zu byte(s)", sizeof(long_integer));
