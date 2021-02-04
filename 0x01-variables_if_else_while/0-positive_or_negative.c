@@ -2,8 +2,8 @@
 #include<stdio.h>
 #include <time.h>
 /**
- * main - short description
- * Return: what does the function return
+ * main - print whether the number stored in the variable n is positive or negative.
+ * Return: 0
  */
 int main(void)
 {
@@ -14,15 +14,15 @@ int main(void)
 
 	if (n < 0)
 	{
-		printf("%d is negative\n",&n);
+		printf("%d is negative\n",n);
 	}
 	else if (n > 0)
 	{
-		printf("%d is positive\n",&n);
+		printf("%d is positive\n",n);
 	}
 	else
 	{
-		printf("%d is zero\n",&n);
+		printf("%d is zero\n",n);
 	}
 	return (0);
 }
