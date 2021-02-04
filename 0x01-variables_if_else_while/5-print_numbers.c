@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - print alphabet
+ * main - print numbers
  * Return: 0
  */
 int main(void)
