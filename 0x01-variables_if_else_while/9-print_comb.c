@@ -1,5 +1,8 @@
 #include <stdio.h> 
-
+  /**
+ * main - short description
+ * Return: what does the function return
+ */
 int main()
 {
     char ch = '0';
