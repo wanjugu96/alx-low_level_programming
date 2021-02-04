@@ -1,9 +1,8 @@
 #include<stdio.h>
 #include <stdlib.h>
-/*
- * main -prints the size of various types on the computer it is compiled
- *
- * Return:  return 0
+/**
+ * main - short description
+ * Return: what does the function return
  */
 int main(void)
 {
@@ -19,4 +18,5 @@ int main(void)
 	printf("Size of a long long int: %zu byte(s)\n", sizeof(longlong_int));
 	printf("Size of a float: %zu byte(s)\n", sizeof(decimal));
 
-	return (0); }
+	return (0);
+}
