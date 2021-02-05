@@ -9,7 +9,7 @@ int main(void)
 {
 char *ch = "0123456789abcdef";
 int i = 0;
-for (i = 0; i <= 16;  i++)
+for (i = 0; i <= 15;  i++)
 {
 putchar(ch[i]);
 }
