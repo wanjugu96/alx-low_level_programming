@@ -7,7 +7,6 @@
 int main(void)
 {
 int i = 0;
-	
 char *nums = "0123456789";
 	
 for (i = 0; i <= 9; i++)
