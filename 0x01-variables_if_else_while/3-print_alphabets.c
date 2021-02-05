@@ -14,6 +14,6 @@ for (i = 0; i <= 51; i++)
 {
 putchar(ch[i]);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
