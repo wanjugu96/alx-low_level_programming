@@ -1,25 +1,29 @@
-#include <stdio.h> 
+#include <stdio.h>
+#include <stdlib.h>
 /**
-* main - short description
-* Return: what does the function return
-*/
+ *main - Entry point
+ *
+ *Description: Function will print all single digit numbers in a comma
+ *separated list without the use of any char variables.
+ *Return: 0 upon successful completion
+ */
 int main(void)
 {
-char ch = '0';
-char ch2 = '0';
-char chara = ',';
-char space = ' ';
-
-for (ch = '0'; ch <= '9'; ch++)
-
-{
-for (ch2 = '0'; ch2 <= '9'; ch2++)
-{
-putchar(ch);
-putchar(ch2);
-putchar(chara);
-putchar(space);         
-} 
-}   
-return (0);
+	int num = '0';
+	int num1 = '0';
+	for (int num='0'; num<='9'; num++)
+	{		
+		for (int num1= '0'; num1 <= '9'; num1++)
+		{
+			putchar(num);
+			putchar(num1); 
+			if (num1 != '9' ||  num!='9')
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
