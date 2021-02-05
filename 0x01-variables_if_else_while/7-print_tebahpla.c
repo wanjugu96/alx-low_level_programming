@@ -10,7 +10,7 @@ int main(void)
 char *ch = "abcdefghijklmnopqrstuvwxyz";
 int i = 25;
 
-for (i = 25; i>=0; i--)
+for (i = 25; i >= 0; i--)
 {
 putchar(ch[i]);
 }
