@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - print numbers using putchar
- * Return: 0
- */
+* main - print numbers using putchar
+* Return: 0
+*/
 int main(void)
 {
 int i = 0;
