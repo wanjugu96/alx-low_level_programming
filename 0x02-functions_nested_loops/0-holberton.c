@@ -1,7 +1,12 @@
 #include <stdio.h>
 
-int main(void)
+int holberton(void)
 {
 	printf("Holberton\n");
-	return(0);
+	return (0);
+}
+int main(void)
+{
+	holberton();
+	return (0);
 }
