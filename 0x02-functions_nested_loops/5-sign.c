@@ -1,4 +1,4 @@
-#include "holberton.c"
+#include "holberton.h"
 /**
 * print_sign- that prints the sign of a number.
 * Return:  1 if positive,0 if zero ,-1 if negative
