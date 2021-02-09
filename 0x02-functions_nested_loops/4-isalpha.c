@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* main - check for alphabet
+* _isalpha- check for alphabet
 * Return: 1 if alphabet else 0
 */
 int _isalpha(int c)
