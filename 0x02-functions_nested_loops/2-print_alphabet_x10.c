@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - prints 10 times the alphabet
+ *print_alphabet_x10 - prints 10 times the alphabet
  * Return: what does the function return
  */
 void print_alphabet_x10(void)
