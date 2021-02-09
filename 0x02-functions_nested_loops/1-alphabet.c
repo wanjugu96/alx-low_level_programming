@@ -1,11 +1,9 @@
 #include "holberton.h"
 /**
-* main - check the code for Holberton School students.
-*
-* Return: Always 0.
+* print_alphabet - Prints out lowercase alphabet followed by a new line
+* Return: Returns null
 */
-
-int main(void)
+void print_alphabet(void)
 {
 char alpha = 'a';
 
