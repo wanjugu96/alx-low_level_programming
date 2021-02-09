@@ -1,51 +1,17 @@
 #include "holberton.h"
-#include <ctype.h>
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-int print_sign(int n)
-{
-    if (n > 0)
-    {  
-        putchar('+');
-      return 1;
- }
-    if (n < 0)
-    {
-        putchar('-');
-        return -1;
-    }
-    else
-    {
-        putchar('0');
-        return 0;
-    }
-}
-int main(void)
-{
-    int r;
+#include <stdio.h>
 
-    r = print_sign(98);
-    _putchar(',');
-     _putchar(' ');
-     _putchar(r + '0');
-     _putchar('\n');
-    r = print_sign(0);
-     _putchar(',');
-     _putchar(' ');
-     _putchar(r + '0');
-     _putchar('\n');
-    r = print_sign(0xff);
-     _putchar(',');
-     _putchar(' ');
-     _putchar(r + '0');
-     _putchar('\n');
-    r = print_sign(-1);
-     _putchar(',');
-     _putchar(' ');
-     _putchar(r + '0');
-     _putchar('\n');
-    return (0);
+/**
+ * _abs - gives absolute number
+ *
+ * Return: absolute val
+ */
+int _abs(int);
+int _abs(int  x)
+{
+    if (x < 0)
+    {
+        return x*(-1);
+    }
+    return x;
 }
