@@ -1,29 +1,21 @@
-//#include "holberton.h"
-#include <stdlib.h>
-#include <ctype.h>
-
+#include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-//int print_last_digit(int);
+* print_last_digit - Print last digit
+*
+* Return: return last didgit.
+*/
+int print_last_digit(int);
 int print_last_digit(int num1)
 {
     int num2;
-    num2= num1 % 10;
-        return num2;
-        
-}
-
-int main(void)
-{
-    int r;
-
-    print_last_digit(98);
-    print_last_digit(0);
-    r = print_last_digit(-1024);
-    putchar('0' + r);
-    putchar('\n');
-    return (0);
+    if (num1 < 0)
+    {
+        num2 = (num1 % 10) *1;
+    }
+    else
+    {
+        num2 = num1 % 10;
+    }
+    putchar('0' + num2);
+    return (num2);
 }
