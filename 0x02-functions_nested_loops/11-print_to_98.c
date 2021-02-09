@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * main - check the code for Holberton School students.
+ * print_to_98 - prints all natural numbers from n to 98, followed by a new line.
  *
  * Return: Always 0.
  */
@@ -18,15 +18,4 @@ void print_to_98(int n)
         }
       
     }
-    //printf("\n");
-    //printf("\n");
-}
-int main(void)
-{
-    print_to_98(0);
-    print_to_98(98);
-    print_to_98(111);
-    print_to_98(81);
-    print_to_98(-10);
-    return (0);
 }
