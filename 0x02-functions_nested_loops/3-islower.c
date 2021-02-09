@@ -6,9 +6,7 @@
  */
 int _islower(int c) 
 {
-int i;
-i = islower(c);
-if (i > 0)
+if (c >= 'a' && c <='Z')
 {
 return 1;
 }
