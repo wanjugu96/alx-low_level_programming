@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> 
 #include "holberton.h"
 /**
  * print_remaining_days - pritn remaining days in yr and the day of yr
