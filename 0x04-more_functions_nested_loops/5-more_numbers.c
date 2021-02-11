@@ -11,7 +11,8 @@ void more_numbers(void)
     int j = 0;
     int k = 0;
     int z = 0;
-    
+    //char c='0';
+
     while (z <= 10)
     {
         for (i = 0; i <= 14; i++)
@@ -34,4 +35,6 @@ void more_numbers(void)
         putchar('\n');
      
     }
+   
+    
 }
