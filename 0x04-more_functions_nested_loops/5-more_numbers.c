@@ -23,7 +23,6 @@ void more_numbers(void)
                 int k = i % 10;
                 _putchar(j + '0');
                 _putchar(k + '0');
-
             }
             else
             {
