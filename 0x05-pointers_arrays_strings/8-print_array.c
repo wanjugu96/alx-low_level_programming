@@ -3,7 +3,7 @@
 void print_array(int* a, int n)
 {
     int i = 0;
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < n; i++)
     {
         a[i] = *(a + i);
         printf("%d", a[i]);
