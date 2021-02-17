@@ -1,32 +1,38 @@
-//#include "holberton.h"
-#include <stdio.h>
+#include "holberton.h"
+
 /**
  * main - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
+
 void puts_half(char* str)
 {
-    //str[] = *str;
-    int z;
-    char strr[] = { *str };
+    int z=0;
     int i = 0;
-    int j = sizeof(strr);
-    z =  j/ 2;
-    //char z;
-    //char[] = "";
-    for (i = z; i <= j; i++)
+    int he;
+    int ho;
+ 
+    while (str[z] != '\0')
     {
-        str[i] = *(str + i);
-        printf("%c", str[i]);
-        
+        z++;
     }
-}
-int main(void)
-{
-    char* str;
+    he = z / 2;
+    ho = (z - 1) / 2;
+    if (z % 2 == 0)
+    {
+        for (i = he; i <= z; i++)
+        {
+            _putchar(str[i]);
+        }
+    }
+    else
+    {
+        for (i = ho; i <= z; i++)
+        {
+            _putchar(str[i]);
 
-    str = "0123456789";
-    puts_half(str);
-    return (0);
+        }
+    }
+   
 }
