@@ -22,6 +22,5 @@ void print_rev(char* s)
             _putchar(s[i]);
             i--;
         }
-       // printf("%d", count);
         _putchar('\n');
 }
