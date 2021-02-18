@@ -8,7 +8,7 @@
  */
 char* _strncat(char* dest, char* src, int n)
 {
-    char str = "";
+
     int i = 0;
     int z = 0;
     int k = sizeof(src);
