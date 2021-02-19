@@ -5,7 +5,7 @@
  *@a string to capitalize
  * Return: a
  */
-char* string_toupper(char*);
+
 char* string_toupper(char* a)
 {
     int z = 0;
