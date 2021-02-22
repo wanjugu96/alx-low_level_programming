@@ -10,7 +10,6 @@ char* _strchr(char* s, char c)
 	int i;
     int k =0;
     int z = 0;
-    char *str;
 
     while (s[z] != '\0')
     {
@@ -21,7 +20,6 @@ char* _strchr(char* s, char c)
         
         if (s[i] == c)
         {
-      
             return (s + i);
         }
 	}
