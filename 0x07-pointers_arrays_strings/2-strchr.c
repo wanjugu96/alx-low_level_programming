@@ -5,14 +5,22 @@
  *@c - character being checked.
  * Return: Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
  */
-char *_strchr(char *s, char c)
+char* _strchr(char* s, char c)
 {
-	int i;
-
-	for (i = 0; s[i]; i++)
-	{
-		if (s[i] == c)
-			return (s + i);
-	}
 	
+int k =0;
+int z = 0;
+int i = 0;
+
+    while (s[z] != '\0')
+    {
+        z++;
+    }
+	for (i = 0; i<z; i++)
+	{
+        if (s[i] == c)
+        
+            return (s + i);
+        
+	}
 }
