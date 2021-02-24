@@ -5,13 +5,17 @@
  * @s -string to be counted lenghth
  * Return: lenghth of string.
  */
-int _strlen_recursion(char *s)
+int _strlen_recursion(char* s)
 {
     int k = 0;
     
-    while (*(s+k) != '\0')
+   if (*s == '\0')
     {
-        k++;
+       return (0);
     }
-    return k;
+   else
+   {
+       return (1+_strlen_recursion(s + 1));
+   }
+  
 }
