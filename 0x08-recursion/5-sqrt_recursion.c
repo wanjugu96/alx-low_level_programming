@@ -12,7 +12,7 @@ int _sqrt(int guess, int num)
 {
 
     if (guess * guess == num)
-        return guess;
+        return (guess);
  
    if (guess * guess > num)
         return (-1);
