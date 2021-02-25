@@ -8,7 +8,7 @@
  * Return: -1 or sqrt of c
  */
 
-int _sqrt(guess, num)
+int _sqrt(int guess, int num)
 {
 
     if (guess * guess == num)
