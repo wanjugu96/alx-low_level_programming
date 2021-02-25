@@ -1,18 +1,18 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * _puts_recursionn - prints string
+ * @*s -string to be printed
+ * Return:printed string
  */
 void _puts_recursion(char* s)
 {
-    int  i;
-
-   for(i=0; *(s + i) != '\0'; i++)
-       
+    if (*s == '\0')
     {
-        putchar(s[i]);
+        _putchar('\n');
+        return (0);
     }
-   putchar('\n');
+  
+    _putchar (*s);
+      _puts_recursion(s+1) ;
 }
