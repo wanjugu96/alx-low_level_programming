@@ -1,4 +1,4 @@
-int _abs(int n)
+int _isdigit(int c)
 {
 return (0);
 }
