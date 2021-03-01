@@ -1,4 +1,4 @@
-int _isalpha(int c)
+char *_strncat(char *dest, char *src, int n)
 {
 retutn(0);
 {
