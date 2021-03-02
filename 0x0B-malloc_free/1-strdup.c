@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * main - function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+ * @str -str to be copied.
+ * Return: Always 0 returns a pointer to a newly allocated space in memory.
  */
 char* _strdup(char* str)
 {
