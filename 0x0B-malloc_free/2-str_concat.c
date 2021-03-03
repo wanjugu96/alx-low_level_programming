@@ -12,35 +12,46 @@ char* str_concat(char* s1, char* s2)
     int z = 0;
     int k = 0;
     int n = 0;
-    int i = 0;
-  int tot_mem = 0;
+    int i;
     char* ar;
-
-    while (s1[z] !='\0')
-    {
-        z++;
-    }
-  
-    while (s2[k] != '\0')
-    {
-        k++;
-    }
     
-    ar = malloc(tot_mem * sizeof(char));
-
-        while (i <= z)
+    if (s1 == NULL)
+    {
+        z = 0;
+    }
+    else
+    {
+        while (s1[z] != '\0')
         {
-            ar[i] = s1[i];
-            i++;
-        }
-        while (n<= k)
-        {
-            ar[z] = s2[n];
             z++;
-            n++;
         }
-  ar[tot_mem-2] = '\0';
+    }
+    if (s2 == NULL)
+    {
+        k == 0;
+    }
+    else
+    {
+        while (s2[k] != '\0')
+        {
+            k++;
+        }
+    }
+    ar = malloc(tot_mem * sizeof(char));
+    if (ar == NULL)
+    {
+        return (NULL);
+    }
+    for (i=0; i<z; i++)
+    {
+        ar[i] = s1[i];
+    }
+    for(i=0; i < k; i++)
+    {
+        ar[i+z] = s2[i];
+    }
+    ar[z+k] = '\0';
 
-        return (ar);
-        free(ar);
+    return (ar);
+    free(ar);
 }
