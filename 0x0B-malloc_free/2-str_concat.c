@@ -11,12 +11,11 @@ char* str_concat(char* s1, char* s2)
 {
     int z = 0;
     int k = 0;
-    int n = 0;
     int i;
     char* ar;
     int j;
     
-    if (s1 == NULL)
+    if (s1 ==  NULL)
     {
         z = 0;
     }
