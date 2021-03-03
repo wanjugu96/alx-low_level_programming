@@ -14,6 +14,7 @@ char* str_concat(char* s1, char* s2)
     int n = 0;
     int i;
     char* ar;
+    int j;
     
     if (s1 == NULL)
     {
@@ -37,7 +38,8 @@ char* str_concat(char* s1, char* s2)
             k++;
         }
     }
-    ar = malloc(tot_mem * sizeof(char));
+    j = k + z + 1;
+    ar = malloc(j * sizeof(char));
     if (ar == NULL)
     {
         return (NULL);
