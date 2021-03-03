@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stdlib>
+#include <stdlib.h>
 /**
  * free_grid - frees memory created for a grid 
  * @grid: the address of the two dimensional grid
