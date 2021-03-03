@@ -11,11 +11,12 @@ char* str_concat(char* s1, char* s2)
 {
     int z = 0;
     int k = 0;
+    int n = 0;
     int i;
     char* ar;
     int j;
-    
-    if (s1 ==  NULL)
+
+    if (s1 == NULL)
     {
         z = 0;
     }
@@ -43,15 +44,15 @@ char* str_concat(char* s1, char* s2)
     {
         return (NULL);
     }
-    for (i=0; i<z; i++)
+    for (i = 0; i < z; i++)
     {
         ar[i] = s1[i];
     }
-    for(i=0; i < k; i++)
+    for (i = 0; i < k; i++)
     {
-        ar[i+z] = s2[i];
+        ar[i + z] = s2[i];
     }
-    ar[z+k] = '\0';
+    ar[z + k] = '\0';
 
     return (ar);
     free(ar);
