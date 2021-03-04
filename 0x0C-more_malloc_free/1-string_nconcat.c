@@ -7,7 +7,7 @@
  * @s2 -string 2
  * Return: returned pointer shall point to a newly allocated space in memory, .
  */
-char* string_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
     unsigned int i, j, k,sum = 0;
     char *ar;
