@@ -1,3 +1,5 @@
+#ifndef DOG_H
+#define DOG_H
 /**
  * struct dog - creates a new dog
  * @name: First member
@@ -11,3 +13,4 @@ struct dog {
 	char *owner;
 	float age;
 };
+#enfif /* DOG_H */ 
