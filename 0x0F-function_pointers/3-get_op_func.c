@@ -1,22 +1,25 @@
-int main(int argc, char *argv[])
+#include <stdio.h>
+#include <stdlib.h>
+#include "calc.h"
+#include <string.h>
+int (*get_op_func(char* s))(int, int)
 {
-	int a, b, c;
-	int (*f)(int, int);
+    
+    op_t ops[] = {
+        {"+", op_add},
+        {"-", op_sub},
+        {"*", op_mul},
+        {"/", op_div},
+        {"%", op_mod},
+        {NULL, NULL}
+    };
+    int i=0;
 
-	if (argc != 4)
+while (ops[i].op != NULL)
 	{
-		printf("Error\n");
-		exit(98);
+		if (strcmp(s, ops[i].op) == 0)
+			break;
+		i++;
 	}
-	a = atoi(argv[1]);
-	b = atoi(argv[3]);
-	f = get_op_func(argv[2]);
-	if (f == NULL)
-	{
-		printf("Error\n");
-		exit(99);
-	}
-	c = f(a, b);
-	printf("%d\n", c);
-	return (0);
+	return (ops[i].f);    
 }
